@@ -85,7 +85,7 @@ class DiagnosisController < ApplicationController
     when 9..10
       @result_title = 'Typhoon(タイフーン)'
     when 11..13
-      @result_title = 'Flying Nimbus(筋斗雲)'
+      @result_title = 'Flying Nimbus(觔斗雲)'
     when 14..15
       @result_title = 'Full Moon(フルムーン)'
     when 16..20

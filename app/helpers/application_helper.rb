@@ -1,2 +1,38 @@
 module ApplicationHelper
+  def result_image(image)
+    case image
+    when 'Sunrise(サンライズ)'
+      '01_sunrise.png'
+    when 'Typhoon(タイフーン)'
+      '02_typhoon.png'
+    when 'The Fall(ザ・フォール)'
+      '03_the_fall.png'
+    when 'Full Moon(フルムーン)'
+      '04_full_moon.png'
+    when 'Shooting Star(シューティングスター)'
+      '05_shooting_star.png'
+    when 'Flying Nimbus(觔斗雲)'
+      '06_flying_nimbus.png'
+    when 'Only you(オンリー・ユー)'
+      '07_only_you.png'
+    when 'I miss you(黄身が恋しい)'
+      '08_i_miss_you.png'
+    when 'Macho Men(マッチョメン)'
+      '09_macho_men.png'
+    when 'Day After Tomorrow(デイ・アフター・トゥモロー)'
+      '10_day_after_tomorrow.png'
+    when 'Dark Side(ダークサイド)'
+      '11_dark_side.png'
+    when 'Summer Salt(サマーソルト)'
+      '12_summer_salt.png'
+    when 'Get Wild (ゲットワイルド)'
+      '13_get_wild .png'
+    when 'SKG(醤油かけご飯)'
+      '14_skg.png'
+    when 'TK(ティーケー)'
+      '15_tk.png'
+    when 'Imagination(イマジネーション)'
+      '16_imagination.png'
+    end
+  end
 end
