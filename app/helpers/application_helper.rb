@@ -51,7 +51,7 @@ module ApplicationHelper
     when 'Flying Nimbus(觔斗雲)'
       "・黄身と白身をメレンゲ状にしてお米と混ぜる\n・醤油を少々\n・天竺を感じる味"
     when 'Only you(オンリー・ユー)'
-      "・黄身だけ\n・醤油を少々\n・一途♡"
+      "・黄身だけをご飯の上に乗せる\n・醤油を少々\n・一途♡"
     when 'I miss you(黄身が恋しい)'
       "・余った白身をご飯と混ぜる\n・醤油を少々\n・黄身がいないと寂しいね。"
     when 'Macho Men(マッチョメン)'
