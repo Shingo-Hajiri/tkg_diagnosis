@@ -2,7 +2,7 @@
   <div class='text-center'>
     <h1 class='text-yellow-400 mb-5'>診断結果</h1>
     <p class='mb-5'>あなたにおすすめの卵かけご飯は、<br><%= @tkg %>です!</p>
-    <%= link_to 'おかわり',root_path, class:'mr-5' %>
+    <%= link_to 'おかわりする',root_path, class:'mr-5' %>
     <%= link_to "https://twitter.com/share?url=https://tkg-diagnosis.onrender.com&text=あなたにおすすめの卵かけご飯は#{ @tkg }です！ %0a%23TKG診断", target: '_blank' do %>
       Xで共有する
     <% end %>
