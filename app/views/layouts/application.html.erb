@@ -43,6 +43,12 @@
   </head>
 
   <body class='text-gray-600'>
+  <div class='min-h-screen w-full relative pb-20'>
+  <%= render 'shared/header' %>
     <%= yield %>
+  <div class='absolute bottom-0 w-full'>
+  <%= render 'shared/footer' %>
+  </div>
   </body>
+  </div>
 </html>
