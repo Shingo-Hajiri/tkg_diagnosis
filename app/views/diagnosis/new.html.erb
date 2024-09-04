@@ -4,63 +4,63 @@
     <%= form_with url:diagnosis_create_path, method: :post do %>
     <div class='mb-8'>
       <label>質問:1 卵かけご飯は好き？</label><br>
-      <%= radio_button_tag 'answers[q1]', 2, class:'v' %>好き　
-      <%= radio_button_tag 'answers[q1]', 0, class:'mt-3 mr-1' %>嫌い　
-      <%= radio_button_tag 'answers[q1]', 1, class:'mt-3 mr-1' %>どちらでもない
+      <label><%= radio_button_tag 'answers[q1]', 2, class:'v' %>好き</label>　
+      <label><%= radio_button_tag 'answers[q1]', 0, class:'mt-3 mr-1' %>嫌い</label>　
+      <label><%= radio_button_tag 'answers[q1]', 1, class:'mt-3 mr-1' %>どちらでもない</label>
     </div>
     <div class='mb-8'>
       <label>質問:2 朝食は食べた？</label><br>
-      <%= radio_button_tag 'answers[q2]', 0, class:'mt-3 mr-1' %>食べた　
-      <%= radio_button_tag 'answers[q2]', 2, class:'mt-3 mr-1' %>食べてない　
-      <%= radio_button_tag 'answers[q2]', 1, class:'mt-3 mr-1' %>準備中
+      <label><%= radio_button_tag 'answers[q2]', 0, class:'mt-3 mr-1' %>食べた</label>　
+      <label><%= radio_button_tag 'answers[q2]', 2, class:'mt-3 mr-1' %>食べてない</label>　
+      <label><%= radio_button_tag 'answers[q2]', 1, class:'mt-3 mr-1' %>準備中</label>
     </div>
     <div class='mb-8'>
       <label>質問:3 何をかけて食べる？</label><br>
-      <%= radio_button_tag 'answers[q3]', 1, class:'mt-3 mr-1' %>塩　
-      <%= radio_button_tag 'answers[q3]', 2, class:'mt-3 mr-1' %>醤油　
-      <%= radio_button_tag 'answers[q3]', 0, class:'mt-3 mr-1' %>何もかけない
+      <label><%= radio_button_tag 'answers[q3]', 1, class:'mt-3 mr-1' %>塩</label>　
+      <label><%= radio_button_tag 'answers[q3]', 2, class:'mt-3 mr-1' %>醤油</label>　
+      <label><%= radio_button_tag 'answers[q3]', 0, class:'mt-3 mr-1' %>何もかけない</label>
     </div>
     <div class='mb-8'>
       <label>質問:4 ご飯は炊き立てが良い？</label><br>
-      <%= radio_button_tag 'answers[q4]', 2, class:'mt-3 mr-1' %>もちろん　
-      <%= radio_button_tag 'answers[q4]', 0, class:'mt-3 mr-1' %>冷やご飯派　
-      <%= radio_button_tag 'answers[q4]', 1, class:'mt-3 mr-1' %>こだわりはない
+      <label><%= radio_button_tag 'answers[q4]', 2, class:'mt-3 mr-1' %>もちろん</label>　
+      <label><%= radio_button_tag 'answers[q4]', 0, class:'mt-3 mr-1' %>冷やご飯派</label>　
+      <label><%= radio_button_tag 'answers[q4]', 1, class:'mt-3 mr-1' %>こだわりはない</label>
     </div>
     <div class='mb-8'>
       <label>質問:5 炊飯器にこだわっている？</label><br>
-      <%= radio_button_tag 'answers[q5]', 2, class:'mt-3 mr-1' %>はい　
-      <%= radio_button_tag 'answers[q5]', 1, class:'mt-3 mr-1' %>土鍋派　
-      <%= radio_button_tag 'answers[q5]', 0, class:'mt-3 mr-1' %>こだわりはない
+      <label><%= radio_button_tag 'answers[q5]', 2, class:'mt-3 mr-1' %>はい</label>　
+      <label><%= radio_button_tag 'answers[q5]', 1, class:'mt-3 mr-1' %>土鍋派</label>　
+      <label><%= radio_button_tag 'answers[q5]', 0, class:'mt-3 mr-1' %>こだわりはない</label>
     </div>
     <div class='mb-8'>
       <label>質問:6 一人暮らし？</label><br>
-      <%= radio_button_tag 'answers[q6]', 2, class:'mt-3 mr-1' %>はい　
-      <%= radio_button_tag 'answers[q6]', 0, class:'mt-3 mr-1' %>いいえ　
-      <%= radio_button_tag 'answers[q6]', 1, class:'mt-3 mr-1' %>秘密
+      <label><%= radio_button_tag 'answers[q6]', 2, class:'mt-3 mr-1' %>はい</label>　
+      <label><%= radio_button_tag 'answers[q6]', 0, class:'mt-3 mr-1' %>いいえ</label>　
+      <label><%= radio_button_tag 'answers[q6]', 1, class:'mt-3 mr-1' %>秘密</label>
     </div>
     <div class='mb-8'>
       <label>質問:7 恋人・パートナーがいる？</label><br>
-      <%= radio_button_tag 'answers[q7]', 2, class:'mt-3 mr-1' %>いる　
-      <%= radio_button_tag 'answers[q7]', 0, class:'mt-3 mr-1' %>いない　
-      <%= radio_button_tag 'answers[q7]', 1, class:'mt-3 mr-1' %>募集中
+      <label><%= radio_button_tag 'answers[q7]', 2, class:'mt-3 mr-1' %>いる</label>　
+      <label><%= radio_button_tag 'answers[q7]', 0, class:'mt-3 mr-1' %>いない</label>　
+      <label><%= radio_button_tag 'answers[q7]', 1, class:'mt-3 mr-1' %>募集中</label>
     </div>
     <div class='mb-8'>
       <label>質問:8 炭水化物を抜いている？</label><br>
-      <%= radio_button_tag 'answers[q8]', 2, class:'mt-3 mr-1' %>抜いている　
-      <%= radio_button_tag 'answers[q8]', 1, class:'mt-3 mr-1' %>たまに抜く　
-      <%= radio_button_tag 'answers[q8]', 0, class:'mt-3 mr-1' %>抜いていない
+      <label><%= radio_button_tag 'answers[q8]', 2, class:'mt-3 mr-1' %>抜いている</label>　
+      <label><%= radio_button_tag 'answers[q8]', 1, class:'mt-3 mr-1' %>たまに抜く</label>　
+      <label><%= radio_button_tag 'answers[q8]', 0, class:'mt-3 mr-1' %>抜いていない</label>
     </div>
     <div class='mb-8'>
       <label>質問:9 ボディビルダーに興味がある？</label><br>
-      <%= radio_button_tag 'answers[q9]', 2, class:'mt-3 mr-1' %>はい　
-      <%= radio_button_tag 'answers[q9]', 1, class:'mt-3 mr-1' %>ちょっとだけ　
-            <%= radio_button_tag 'answers[q9]', 0, class:'mt-3 mr-1' %>いいえ
+      <label><%= radio_button_tag 'answers[q9]', 2, class:'mt-3 mr-1' %>はい</label>　
+      <label><%= radio_button_tag 'answers[q9]', 1, class:'mt-3 mr-1' %>ちょっとだけ</label>　
+      <label><%= radio_button_tag 'answers[q9]', 0, class:'mt-3 mr-1' %>いいえ</label>
     </div>
     <div class='mb-20'>
       <label>質問:10 厨二病で通院している？</label><br>
-      <%= radio_button_tag 'answers[q10]', 1, class:'mt-3 mr-1' %>通院中　
-      <%= radio_button_tag 'answers[q10]', 0, class:'mt-3 mr-1' %>通院していない　
-      <%= radio_button_tag 'answers[q10]', 2, class:'mt-3 mr-1' %>卒業済み
+      <label><%= radio_button_tag 'answers[q10]', 1, class:'mt-3 mr-1' %>通院中</label>　
+      <label><%= radio_button_tag 'answers[q10]', 0, class:'mt-3 mr-1' %>通院していない</label>　
+      <label><%= radio_button_tag 'answers[q10]', 2, class:'mt-3 mr-1' %>卒業済み</label>
     </div>
 
     <div class='mb-20'>
